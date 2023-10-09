@@ -727,3 +727,12 @@ h1 small {
      transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
     }
    }
+
+
+
+   /* new CSS */
+   .main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1rem;
+   }
